@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" allow-return-values="true">
+  <test name="API Test Suite">
+    <classes>
+      <class name="testscripts.TC001_GET_WeatherInfo"/>
+      <class name="testscripts.TC002_POST_CustomerInfo"/>
+      <class name="testscripts.TC003_GET_GoogleMapsInfo"/>
+      <class name="testscripts.TC004_GET_ValidatingJSONResponse"/>
+      <class name="testscripts.TC005_GET_ExtractValuesOfEachNodeInJSON"/>
+      <class name="testscripts.TC006_GET_RequestAuthorization"/>
+      <class name="testscripts.Testscript_01_EmployeeFeature"/>
+    </classes>
+  </test> <!-- API Test Suite -->
+  <test name="API Test Suite(failed)">
+    <classes>
+      <class name="testscripts.TC001_GET_WeatherInfo">
+        <methods>
+          <include name="intailize"/>
+          <include name="clear"/>
+        </methods>
+      </class> <!-- testscripts.TC001_GET_WeatherInfo -->
+      <class name="testscripts.TC006_GET_RequestAuthorization">
+        <methods>
+          <include name="intailize"/>
+          <include name="clear"/>
+        </methods>
+      </class> <!-- testscripts.TC006_GET_RequestAuthorization -->
+      <class name="testscripts.TC005_GET_ExtractValuesOfEachNodeInJSON">
+        <methods>
+          <include name="intailize"/>
+          <include name="clear"/>
+        </methods>
+      </class> <!-- testscripts.TC005_GET_ExtractValuesOfEachNodeInJSON -->
+      <class name="testscripts.TC003_GET_GoogleMapsInfo">
+        <methods>
+          <include name="intailize"/>
+          <include name="clear"/>
+        </methods>
+      </class> <!-- testscripts.TC003_GET_GoogleMapsInfo -->
+      <class name="testscripts.TC004_GET_ValidatingJSONResponse">
+        <methods>
+          <include name="intailize"/>
+          <include name="clear"/>
+        </methods>
+      </class> <!-- testscripts.TC004_GET_ValidatingJSONResponse -->
+      <class name="testscripts.TC002_POST_CustomerInfo">
+        <methods>
+          <include name="registerCustomer"/>
+          <include name="intailize"/>
+          <include name="clear"/>
+        </methods>
+      </class> <!-- testscripts.TC002_POST_CustomerInfo -->
+      <class name="testscripts.Testscript_01_EmployeeFeature">
+        <methods>
+          <include name="getSingleUser"/>
+          <include name="intailize"/>
+          <include name="testPost"/>
+          <include name="clear"/>
+        </methods>
+      </class> <!-- testscripts.Testscript_01_EmployeeFeature -->
+    </classes>
+  </test> <!-- API Test Suite(failed) -->
+</suite> <!-- Failed suite [Suite] -->
